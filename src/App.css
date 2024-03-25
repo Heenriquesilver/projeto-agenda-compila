@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 400px) {
+  /* Estilos para largura de tela igual ou menor que 400px */
+  .search-bar,
+  .container-outlet {
+    flex-direction: column;
+  }
+
+  .lista-contatos,
+  .outlet {
+    width: 100%;
+  }
+}

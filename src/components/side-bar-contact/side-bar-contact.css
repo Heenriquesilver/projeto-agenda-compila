@@ -1,0 +1,66 @@
+.search-bar {
+  background-color: #c7c7c7;
+  width: 100%; /* Alteração: Agora ocupará 100% da largura do container pai */
+  max-width: 400px; /* Nova adição: Limita a largura máxima para evitar que o sidebar fique muito largo */
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #424242;
+  justify-content: center;
+  margin: 5px;
+}
+
+.procurar {
+  padding: 7px;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 15px;
+  border: none;
+}
+
+.new-button {
+  color: white;
+  background-color: rgb(33, 100, 2);
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+
+  font-size: 15px;
+  border: none;
+}
+
+.botao-adicionar:hover {
+  background-color: rgb(61, 179, 7);
+  color: #c7c7c7;
+}
+
+.search-bar form {
+  padding: 20px;
+}
+.lista-contatos {
+  background-color: #c7c7c7;
+  border: 1px solid #424242;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 25px;
+  min-height: 30rem;
+  margin: 5px;
+}
+
+.container-outlet {
+  display: flex;
+}
+
+.container-form {
+  border: 1px solid #424242;
+}
+.container-form input {
+  caret-color: blue;
+}
+.outlet {
+  margin: 4px 0;
+}

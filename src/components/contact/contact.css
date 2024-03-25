@@ -1,0 +1,11 @@
+.contatos {
+  text-align: center;
+  background-color: #fcf1f1;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 2px;
+}
+.link-color {
+  color: black;
+  text-decoration: none;
+}
